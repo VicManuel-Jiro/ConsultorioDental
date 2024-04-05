@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="btnCancelarPacienteBuscar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btnEliminarPaciente" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel1" min="-2" pref="37" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtClaveBuscarPaciente" min="-2" pref="120" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnBuscarPaciente" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="lblCorreoPacienteAgregar" alignment="1" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Component id="lblTelefonoPacienteAgregar" alignment="1" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Component id="lblApellidosPacienteAgregar" alignment="1" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Component id="lblGeneroPacienteAgregar" alignment="1" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Component id="lblOcupacionPacienteAgregar" alignment="1" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Component id="lblEdoCivilPacienteAgregar" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblNombrePacienteAgregar" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="lblCallePacienteAgregar" alignment="1" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Component id="lblColoniaPacienteAgregar" alignment="1" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Component id="lblCiudadPacienteAgregar" alignment="1" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Component id="lblEstadoPacienteAgregar" alignment="1" min="-2" pref="64" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblCpPacienteAgregar" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="lblNoExPacienteAgregar" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="lblNoInPacienteAgregar" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtApellidosBuscarPaciente" min="-2" pref="151" max="-2" attributes="0"/>
+                                  <Component id="txtNombreBuscarPaciente" min="-2" pref="151" max="-2" attributes="0"/>
+                                  <Component id="cbGeneroBuscarPaciente" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                  <Component id="cbEdoCivilBuscarPaciente" alignment="0" min="-2" pref="85" max="-2" attributes="0"/>
+                                  <Component id="txtOcupacionBuscarPaciente" alignment="0" min="-2" pref="151" max="-2" attributes="0"/>
+                                  <Component id="txtTelefonoBuscarPaciente" alignment="0" min="-2" pref="151" max="-2" attributes="0"/>
+                                  <Component id="txtCorreoBuscarPaciente" alignment="0" min="-2" pref="151" max="-2" attributes="0"/>
+                                  <Component id="cbEdoBuscarPaciente" alignment="0" min="-2" pref="151" max="-2" attributes="0"/>
+                                  <Component id="txtCiudadBuscarPaciente" alignment="0" min="-2" pref="151" max="-2" attributes="0"/>
+                                  <Component id="txtColoniaBuscarPaciente" alignment="0" min="-2" pref="151" max="-2" attributes="0"/>
+                                  <Component id="txtCalleBuscarPaciente" alignment="0" min="-2" pref="151" max="-2" attributes="0"/>
+                                  <Component id="txtNoExBuscarPaciente" alignment="0" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="txtNoInBuscarPaciente" alignment="0" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="txtCpBuscarPaciente" min="-2" pref="69" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="29" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtClaveBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNombrePacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNombreBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblApellidosPacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtApellidosBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblGeneroPacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbGeneroBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblEdoCivilPacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbEdoCivilBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblOcupacionPacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtOcupacionBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTelefonoPacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTelefonoBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCorreoPacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCorreoBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblEstadoPacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbEdoBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCiudadPacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCiudadBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblColoniaPacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtColoniaBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCallePacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCalleBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNoExPacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNoExBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNoInPacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNoInBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCpPacienteAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCpBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnEliminarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCancelarPacienteBuscar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTelefonoPacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telefono:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCorreoPacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Correo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCpPacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C.P."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNoInPacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="No. Int."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNoExPacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="No. Ext."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCallePacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calle:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblColoniaPacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Colonia:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCiudadPacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ciudad:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEstadoPacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCancelarPacienteBuscar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelarPacienteBuscarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNombrePacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblApellidosPacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellidos:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblGeneroPacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Genero:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEdoCivilPacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado Civil:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblOcupacionPacienteAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ocupacion:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnEliminarPaciente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Eliminar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarPacienteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clave"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtClaveBuscarPaciente">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtClaveBuscarPacienteKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBuscarPaciente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarPacienteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNombreBuscarPaciente">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNombreBuscarPacienteActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNombreBuscarPacienteKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtApellidosBuscarPaciente">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtApellidosBuscarPacienteKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtOcupacionBuscarPaciente">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtOcupacionBuscarPacienteKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTelefonoBuscarPaciente">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtTelefonoBuscarPacienteKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCorreoBuscarPaciente">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtCorreoBuscarPacienteFocusLost"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtCorreoBuscarPacienteKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbGeneroBuscarPaciente">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new DefaultComboBoxModel(new String[] { &quot;&quot;, &quot;H&quot;, &quot;M&quot; })" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbEdoCivilBuscarPaciente">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new DefaultComboBoxModel(new String[] { &quot;&quot;, &quot;Soltero&quot;, &quot;Casado&quot;, &quot;Divorciado&quot; })" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbEdoBuscarPaciente">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new DefaultComboBoxModel(new String[] { &quot;&quot;, &quot;Aguascalientes&quot;, &quot;Baja California&quot;, &quot;Baja California Sur&quot;, &quot;Campeche&quot;, &quot;Chiapas&quot;, &quot;Chihuahua&quot;, &quot;Coahuila&quot;, &quot;Colima&quot;, &quot;Durango&quot;, &quot;Estado De M&#xfffd;xico&quot;, &quot;Guanajuato&quot;, &quot;Guerrero&quot;, &quot;Hidalgo&quot;, &quot;Jalisco&quot;, &quot;Michoac&#xfffd;n&quot;, &quot;Morelos&quot;, &quot;Nayarit&quot;, &quot;Nuevo Le&#xfffd;n&quot;, &quot;Oaxaca&quot;, &quot;Puebla&quot;, &quot;Quer&#xfffd;taro&quot;, &quot;Quintana Roo&quot;, &quot;San Luis Potos&#xfffd;&quot;, &quot;Sinaloa&quot;, &quot;Sonora&quot;, &quot;Tabasco&quot;, &quot;Tamaulipas&quot;, &quot;Tlaxcala&quot;, &quot;Veracruz&quot;, &quot;Yucat&#xfffd;n&quot;, &quot;Zacatecas&quot; })" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCiudadBuscarPaciente">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtCiudadBuscarPacienteKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtColoniaBuscarPaciente">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtColoniaBuscarPacienteKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCalleBuscarPaciente">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCalleBuscarPacienteActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtCalleBuscarPacienteKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNoExBuscarPaciente">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNoExBuscarPacienteKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNoInBuscarPaciente">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNoInBuscarPacienteKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCpBuscarPaciente">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtCpBuscarPacienteKeyTyped"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
